@@ -17,7 +17,7 @@ code {
 @tailwind utilities;
 
 @layer base {
-  .gameBody {
+  .gameBoard {
     @apply bg-gameBackground w-max m-auto p-2 rounded-md mt-3;
   }
   .square {
