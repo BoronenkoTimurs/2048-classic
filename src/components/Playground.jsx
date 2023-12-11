@@ -1,7 +1,4 @@
-import { useState } from "react";
-// import Playground from "./components/Playground";
-
-function App() {
+const Playground = () => {
   const [data, setData] = useState([
     [0, 0, 0, 0],
     [0, 0, 0, 0],
@@ -21,9 +18,9 @@ function App() {
       })}
     </div>
   );
-}
+};
 const Block = ({ num }) => {
   return <div className="square">{num}</div>;
 };
 
-export default App;
+export default Playground;
